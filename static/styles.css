@@ -85,3 +85,30 @@ h1, h2 {
     line-height: 25px;
     font-size: 18px;
 }
+
+#popup {
+    /* display: hidden; */
+    background-color: hsl(217, 19%, 35%);
+    width: 320px;
+    height: 45px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#popup p {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 8px;
+    margin: 0 15px;
+    text-align: center;
+}
+ 
+.social-icon {
+    color: white;
+    margin: 0 10px;
+    height: 25px;
+}
