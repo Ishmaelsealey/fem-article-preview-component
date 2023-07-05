@@ -87,16 +87,19 @@ h1, h2 {
 }
 
 #popup {
-    /* display: hidden; */
     background-color: hsl(217, 19%, 35%);
     width: 320px;
     height: 45px;
     padding: 10px 20px;
+    position: absolute;
+    right: 180px;
+    top: 48vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    display: none;
 }
 
 #popup p {
@@ -111,4 +114,15 @@ h1, h2 {
     color: white;
     margin: 0 10px;
     height: 25px;
+}
+
+#triangle {
+    position: relative;
+    right: 145px;
+    top: 40px;
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 30px solid hsl(217, 19%, 35%);
 }
