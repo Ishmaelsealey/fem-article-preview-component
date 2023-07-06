@@ -129,3 +129,52 @@ h1, h2 {
 	border-right: 25px solid transparent;
 	border-top: 30px solid hsl(217, 19%, 35%);
 }
+
+@media screen and (max-width: 375px) {
+    #main {
+        width: 85vw;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+    }
+
+    #drawers { 
+        width: 100%;
+        height: 120%;
+    }
+
+    h1 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    #right-container {
+        padding: 20px;
+        grid-template-rows: 30% 50% 20%;
+    }
+
+    #right-container p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    #profile-info {
+        grid-template-columns: 15% auto 15%;
+        grid-gap: 15px;
+    }
+
+    #profile { height: 35px;}
+
+    #share {
+        height: 35px;
+        width: 35px;
+    }
+    #triangle {
+        display: none;
+    }
+}
