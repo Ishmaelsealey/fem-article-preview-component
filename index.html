@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <div id="main">
+  <main id="main">
     <div id="draw-container">
       <img id="drawers" src="images/drawers.jpg" alt="drawers">
     </div>
@@ -28,26 +28,27 @@
         to help you make any room feel complete.
       </p>
 
-      <div id="profile-info">
+      <section id="profile-info">
         <img id="profile" src="images/avatar-michelle.jpg" alt="profile picture">
         <div>
           <h2>Michelle Appleton</h2>
           <p>28 Jun 2020</p>
         </div>
-        <div id="share">
+        <button id="share">
           <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
-          <!-- <img id="icon" src="images/icon-share.svg" alt="share-icon"> -->
-        </div>
-      </div>
+        </button>
+      </section>
     </div>
-    <div id="popup">
-        <p>share</p>
-        <img src="images/icon-facebook.svg" alt="facebook" class="social-icon">
-        <img src="images/icon-twitter.svg" alt="twitter" class="social-icon">
-        <img src="images/icon-pinterest.svg" alt="pinterest" class="social-icon">
-        <div id="triangle"></div>
-      </div>
-  </div>
+    <nav id="popup">
+      <ul>
+        <li><p>share</p></li>
+        <li><a href="https://www.facebook.com" target="_blank"><img src="images/icon-facebook.svg" alt="facebook icon"></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><img src="images/icon-twitter.svg" alt="twitter icon"></a></li>
+        <li><a href="https://www.pinterest.com" target="_blank"><img src="images/icon-pinterest.svg" alt="pinterest icon"></a></li>
+      </ul>
+      <div id="triangle"></div>
+      </nav>
+  </main>
   
     
     <script src="script.js"></script>

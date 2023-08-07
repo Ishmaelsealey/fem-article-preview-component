@@ -54,6 +54,7 @@ h1, h2 {
 
 #share {
     background-color: hsl(210, 46%, 95%);
+    border: none;
     border-radius: 50%;
     height: 45px;
     width: 45px;
@@ -111,6 +112,16 @@ h1, h2 {
     letter-spacing: 8px;
     margin: 0 15px;
     text-align: center;
+}
+
+#popup ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#popup ul > li {
+    margin: 0 0.5rem;
 }
  
 .social-icon {
